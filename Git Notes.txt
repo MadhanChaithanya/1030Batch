@@ -1,0 +1,38 @@
+GIT Tool:
+========
+
+What is Version Control System(VCS)?
+===============================
+
+Problem:
+	You want to write some <code/>
+	    with a group of people.
+
+Solution: Version Control
+
+What is Version Control?
+-> A System that keeps records of your changes.
+-> Allows for Collaborative Development.
+-> Allows you to know who made what changes & when.
+-> Allows you to revert any changes.
+
+Version Control System Types:
+-------------------------------------
+1) Local
+2) Centralized
+3) Distributed.
+
+1) Local Version Control System: 
+
+2) Centralized Version Control System:
+
+3) Distrubuted Version Control System:
+
+Git, BitBucket, GitLab, Subversion, Mercurial, Perforce.
+
+========================================
+Git Environment:
+
+Developer 1: On Windows System.
+
+Developer 2: On AWS Linux EC2 Instance.
