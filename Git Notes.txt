@@ -36,3 +36,79 @@ Git Environment:
 Developer 1: On Windows System.
 
 Developer 2: On AWS Linux EC2 Instance.
+
+
+
+
+
+
+Git reset 
+
+==============
+
+This is a command of git using which we can toggle between multiple
+
+versions of git and access whichever version we want
+
+
+
+Reset can be done in 3 ways
+
+1 Hard reset
+
+2 soft reset
+
+3 Mixed reset
+
+
+
+In hard reset HEAD simply points to an older commit adn we can see the 
+
+data as present at the time of that older commit
+
+
+
+1 Create few commits on master
+
+  a-->b--->c
+
+
+
+2 To jump to b commit from c
+
+  git reset --hard b_commit_id
+
+
+
+------------------------------------------------------------------
+
+Soft reset will also move the head to an older commit but
+
+we will see the condition of the git repository as just one
+
+step prior to the c commit ie the files will be seen in the
+
+stagging area
+
+
+
+git reset --soft b_commitid
+
+
+
+--------------------------------------------------------------------
+
+Mixed reset also moves the head to an older commit
+
+but we will see the condition of git as 2 steps prior to the c commit
+
+ie the files will be present in the untracked/modified section
+
+
+
+git reset --mixed b_commitid
+
+
+
+
+
