@@ -57,7 +57,7 @@ WHAT IF BUILD FAILS:
     
     HISTORY:
     1  yum install git java-1.8.0-openjdk  maven -y
-    2  git clone https://github.com/devopsbyraham/jenkins-java-project.git
+    2  git clone https://github.com/madhan/jenkins-java-project.git
     3  ll
     4  cd jenkins-java-project/
     5  ll
